@@ -3,7 +3,7 @@ module.exports = {
     title: `KV Speaks`,
     author: {
       name: `KV Mohandas`,
-      summary: `who lives in Naduvath; reading, writing and watering his plants.`,
+      summary: `who lives in Naduvath; reading, writing and gardening.`,
     },
     description: `KV's thoughts`,
     siteUrl: `https://kvspeaks.in/`,
