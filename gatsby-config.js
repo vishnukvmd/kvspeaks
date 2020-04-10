@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `KV Speaks`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `KV Mohandas`,
+      summary: `who lives in Naduvath; reading, writing and watering his plants.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `KV's thoughts`,
+    siteUrl: `https://kvspeaks.in/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `vishnukvmd`,
     },
   },
   plugins: [
