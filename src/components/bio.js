@@ -28,7 +28,7 @@ const Bio = () => {
             summary
           }
           social {
-            twitter
+            email
           }
         }
       }
@@ -59,6 +59,10 @@ const Bio = () => {
       <p>
         Written by <strong>{author.name}</strong> {author.summary}
         {` `}
+        You can reach him at {` `}
+        <a href={`mailto:${social.email}`}>
+          {social.email}
+        </a>.
       </p>
     </div>
   )

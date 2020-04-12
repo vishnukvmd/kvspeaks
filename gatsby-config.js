@@ -8,6 +8,7 @@ module.exports = {
     description: `KV's thoughts`,
     siteUrl: `https://kvspeaks.in/`,
     social: {
+      email: `kvmohandas229@gmail.com`,
       twitter: `vishnukvmd`,
     },
   },
