@@ -30,13 +30,6 @@ const BlogIndex = ({ data, location }) => {
               </h3>
               <small>{node.frontmatter.date}</small>
             </header>
-            <section>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
-              />
-            </section>
           </article>
         )
       })}
@@ -63,7 +56,6 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
-            description
           }
         }
       }
