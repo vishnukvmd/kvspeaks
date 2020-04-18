@@ -10,7 +10,7 @@ collections:
     folder: "content/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "index" # Filename template, e.g., YYYY-MM-DD-title.md
-    path: "{{fields.link}}/{{slug}}"
+    path: "{{link}}/{{slug}}"
     fields: # The fields for each document, usually in front matter
       - {label: "Link", name: "link", widget: "string", hint: "kvspeaks.in/LINK"}
       - {label: "Title", name: "title", widget: "string", hint: "Title for your post"}
